@@ -1,0 +1,16 @@
+#name ".//test_files//longcomment.cl"
+#1 TYPEID Comment
+#1 OBJECTID test
+#14 TYPEID Comment
+#15 OBJECTID test
+#46 TYPEID Foo
+#46 OBJECTID bar
+#46 TYPEID Moo
+#46 OBJECTID bow
+#46 TYPEID JoJo
+#46 TYPEID JojOj
+#46 OBJECTID joJoj323
+#46 OBJECTID dfdj
+#46 OBJECTID fadsjfkldsafjklsd
+#46 ';'
+#46 OBJECTID dfdsajfk312

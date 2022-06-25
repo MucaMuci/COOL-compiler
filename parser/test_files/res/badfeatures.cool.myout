@@ -1,0 +1,4 @@
+".//test_files//badfeatures.cl", line 2: syntax error at or near OBJECTID = int
+".//test_files//badfeatures.cl", line 4: syntax error at or near ';'
+".//test_files//badfeatures.cl", line 6: syntax error at or near OBJECTID = y
+Compilation halted due to lex and parse errors

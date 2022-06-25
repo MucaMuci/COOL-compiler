@@ -1,0 +1,3 @@
+#name ".//test_files//s34.cl"
+#1 OBJECTID before_it
+#4 ERROR "Unterminated string constant"

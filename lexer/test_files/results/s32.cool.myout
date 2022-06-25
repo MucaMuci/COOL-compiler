@@ -1,0 +1,2 @@
+#name ".//test_files//s32.cl"
+#1 ERROR "Unmatched *)"

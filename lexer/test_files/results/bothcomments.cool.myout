@@ -1,0 +1,12 @@
+#name ".//test_files//bothcomments.cl"
+#1 OBJECTID what
+#1 OBJECTID the
+#1 OBJECTID programmer
+#1 OBJECTID thought
+#1 OBJECTID it
+#1 OBJECTID was
+#1 ERROR "Unmatched *)"
+#2 '.'
+#3 IF
+#3 INT_CONST 5
+#3 THEN

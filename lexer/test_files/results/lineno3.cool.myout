@@ -1,0 +1,5 @@
+#name ".//test_files//lineno3.cl"
+#6 '+'
+#7 OBJECTID abc
+#10 TYPEID DEF
+#11 STR_CONST "string"

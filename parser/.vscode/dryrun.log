@@ -1,0 +1,16 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/student/jip/parser'
+bison -d -v -y -b cool --debug -p cool_yy cool.y 
+mv -f cool.tab.c cool-parse.cc
+g++ -g -Wall -Wno-unused -Wno-deprecated -Wno-write-strings -DDEBUG -I. -c parser-phase.cc
+g++ -g -Wall -Wno-unused -Wno-deprecated -Wno-write-strings -DDEBUG -I. -c utilities.cc
+g++ -g -Wall -Wno-unused -Wno-deprecated -Wno-write-strings -DDEBUG -I. -c stringtab.cc
+g++ -g -Wall -Wno-unused -Wno-deprecated -Wno-write-strings -DDEBUG -I. -c dumptype.cc
+g++ -g -Wall -Wno-unused -Wno-deprecated -Wno-write-strings -DDEBUG -I. -c tree.cc
+g++ -g -Wall -Wno-unused -Wno-deprecated -Wno-write-strings -DDEBUG -I. -c cool-tree.cc
+g++ -g -Wall -Wno-unused -Wno-deprecated -Wno-write-strings -DDEBUG -I. -c tokens-lex.cc
+g++ -g -Wall -Wno-unused -Wno-deprecated -Wno-write-strings -DDEBUG -I. -c handle_flags.cc
+g++ -g -Wall -Wno-unused -Wno-deprecated -Wno-write-strings -DDEBUG -I. -c cool-parse.cc
+g++ -g -Wall -Wno-unused -Wno-deprecated -Wno-write-strings -DDEBUG -I. parser-phase.o utilities.o stringtab.o dumptype.o tree.o cool-tree.o tokens-lex.o handle_flags.o cool-parse.o -lfl -o parser
+make: Leaving directory '/home/student/jip/parser'
+ 

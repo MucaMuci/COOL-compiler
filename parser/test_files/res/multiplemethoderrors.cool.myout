@@ -1,0 +1,3 @@
+".//test_files//multiplemethoderrors.cl", line 4: syntax error at or near '}'
+".//test_files//multiplemethoderrors.cl", line 6: syntax error at or near '}'
+Compilation halted due to lex and parse errors

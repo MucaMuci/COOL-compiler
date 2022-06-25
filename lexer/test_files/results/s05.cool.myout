@@ -1,0 +1,2 @@
+#name ".//test_files//s05.cl"
+#1 STR_CONST "other unescaped whitespace: \t\f\022\013"

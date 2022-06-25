@@ -1,0 +1,4 @@
+#name ".//test_files//s19.cl"
+#3 ERROR "Unterminated string constant"
+#3 OBJECTID d
+#4 ERROR "Unterminated string constant"

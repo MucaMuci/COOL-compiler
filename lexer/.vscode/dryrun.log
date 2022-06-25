@@ -1,0 +1,11 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/student/jip/lexer'
+flex -d -ocool-lex.cc cool.flex 
+g++ -g -Wall -Wno-unused -Wno-deprecated -Wno-write-strings -DDEBUG -I. -c cool-lex.cc
+g++ -g -Wall -Wno-unused -Wno-deprecated -Wno-write-strings -DDEBUG -I. -c handle_flags.cc
+g++ -g -Wall -Wno-unused -Wno-deprecated -Wno-write-strings -DDEBUG -I. -c stringtab.cc
+g++ -g -Wall -Wno-unused -Wno-deprecated -Wno-write-strings -DDEBUG -I. -c utilities.cc
+g++ -g -Wall -Wno-unused -Wno-deprecated -Wno-write-strings -DDEBUG -I. -c lextest.cc
+g++ -g -Wall -Wno-unused -Wno-deprecated -Wno-write-strings -DDEBUG -I. lextest.o utilities.o stringtab.o handle_flags.o cool-lex.o -o lexer
+make: Leaving directory '/home/student/jip/lexer'
+ 

@@ -1,0 +1,4 @@
+#name ".//test_files//comment_in_string.cl"
+#1 STR_CONST "string (* 123 *) string"
+#2 STR_CONST "string \n(* 123 *)"
+#3 STR_CONST "string (* \n123 *)"
